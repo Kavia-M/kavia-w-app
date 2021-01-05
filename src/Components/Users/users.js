@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import SmallCards from "../SmallCards/SmallCards";
 import { Animated, Easing, SectionList, StatusBar, StyleSheet, Text, TouchableOpacity, View, Image } from "react-native";
-var cloud="iii";
 
 export default function Users() {
     const [data, setWeather] = useState({num : null ,
@@ -85,7 +84,7 @@ export default function Users() {
     return(
         <div style={{width: 200}} >
             <div style={{width:500}} className="centered" >   
-                Search using location ==>
+                Search using location ==
              <input type="text" onChange={getData}/>
              <button onClick={fetchData} > Search </button>
             </div>
